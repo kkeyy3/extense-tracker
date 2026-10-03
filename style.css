@@ -1,0 +1,49 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+    width: 600px;
+}
+
+.filter-and-sort{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 600px;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    gap: 35px;
+}
+
+.toast {
+    display: flex;
+    justify-self: end;
+    align-self: center;
+    color: white;
+    background-color: rgba(1, 1, 1, 0.9);
+}
+
+.current-sum {
+    display: flex;
+    align-self: center;
+}
