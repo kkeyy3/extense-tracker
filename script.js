@@ -27,7 +27,7 @@ function fillSelect(select, array) {
 function createNewId() {
     if (extenses.length === 0) return 1
     const maxId = Math.max(...extenses.map(extense => extense.id))
-    return maxId    
+    return maxId + 1
 }
 
 
